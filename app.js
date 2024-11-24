@@ -197,7 +197,7 @@ console.log(originalObject); // { foo: 'Goodbye', bar: 100 }
 const originalObjectElement = document.getElementById('originalObject');
 originalObjectElement.textContent = `Altered Original object: ${JSON.stringify(originalObject)}`;
 
-// // Update the properties of clonedObject:
+// Update the properties of clonedObject:
 const clonedObject1 = { ...originalObject };
 clonedObject1.foo = 'Goodbye';
 clonedObject1.bar = 0;
@@ -282,7 +282,7 @@ fruitInventoryElement.textContent = `Inventory: ${(JSON.stringifyfruitInventory)
 
 const propertyNameElement = document.getElementById('propertyName');
 
-propertyNameElement.textContent = `: ${JSON.stringify(propertyName)}`;
+propertyNameElement.textContent = `:) ${JSON.stringify(propertyName)}`;
 
 
  //______________________Review: import and export_____________________________//
@@ -366,7 +366,7 @@ console.log(outCome);
 
 const outComeElement = document.getElementById('outCome');
 
-outComeElement.textContent = `to taste or not to taste?: ${outCome}`;
+outComeElement.textContent = `To taste or not to taste?: ${outCome}`;
 
 
 //________________Review: Boolean gates__________//
