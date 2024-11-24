@@ -407,16 +407,16 @@ const result8Element = document.getElementById('result8');
 const result9Element = document.getElementById('result9');
 const result10Element = document.getElementById('result10');
 
-result1Element.textContent = `Result: ${result1}`;
-result2Element.textContent = `Result: ${result2}`;
-result3Element.textContent = `Result: ${result3}`;
-result4Element.textContent = `Result: ${result4}`;
-result5Element.textContent = `Result: ${result5}`;
-result6Element.textContent = `Result: ${result6}`;
-result7Element.textContent = `Result: ${result7}`;
-result8Element.textContent = `Result: ${result8}`;
-result9Element.textContent = `Result: ${result9}`;
-result10Element.textContent = `Result: ${result10}`;
+result1Element.textContent = `Result1: ${result1}`;
+result2Element.textContent = `Result2: ${result2}`;
+result3Element.textContent = `Result3: ${result3}`;
+result4Element.textContent = `Result4: ${result4}`;
+result5Element.textContent = `Result5: ${result5}`;
+result6Element.textContent = `Result6: ${result6}`;
+result7Element.textContent = `Result7: ${result7}`;
+result8Element.textContent = `Result8: ${result8}`;
+result9Element.textContent = `Result9: ${result9}`;
+result10Element.textContent = `Result10: ${result10}`;
 
 //______________________Exercise 10: Boolean gates_________//
 
